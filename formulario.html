@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contacto</title>
+</head>
+<dev class="nav">
+    <a href="Index.html">Index</a>
+    <a href="formulario.html">Formulario</a>
+</dev>
+<body>
+
+    <form action='#' method='get' name='formulario'>
+        <p>Nombre</p>
+        <p>
+            <input type='text' name='nombre' />
+        </p>
+        <p>e-mail</p>
+        <p>
+            <input type='text' name='e-mail' />
+        </p>
+        <p>Género</p>
+        <p>
+            <input type='radio' name='genero' value='Hombre' />Hombre
+            <input type='radio' name='genero' value='Mujer' />Mujer
+            <input type='radio' name='genero' value='Otros' />Otros
+        </p>
+        <p>Contraseña</p>
+        <p>
+            <input type='password' name='contraseña' />
+        </p>
+        <p>Commentario</p>
+        <p>
+            <textarea name='commentario' rows='5' cols='40'>
+                </textarea>
+        </p>
+        <p>
+            Ciudad
+            <select name='opcion'>
+                <option value='GU'>Guadalajara</option>
+                <option value='ZA'>Zapopan</option>
+                <option value='TO'>Tonalá</option>
+                <option value='OT'>Otra</option>
+            </select>
+        </p>
+        <p>
+            <input type="checkbox" name="contrato" value="interes"> Me interesa Contratarte<br>
+        </p>
+        <p>
+            <input type='submit' value='Enviar' />
+        </p>
+    </form>
+</body>
+</html>
